@@ -1,1 +1,8 @@
-# Deepankar010497.github.io
+# Data Scientist
+
+### Education
+Masters, BITS Pilani
+
+### Work Experience
+Data Scientist @ LTIMINDTREE
+
