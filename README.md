@@ -1,7 +1,7 @@
 
 # 👨‍💻 Deepankar Pradhan
 
-**Data Scientist | AI/ML Engineer | GenAI Specialist | Multi-Agent Systems | Scalable AI Pipelines**
+**Data Scientist** | **AI/ML Engineer** | **GenAI Specialist** | **Multi-Agent Systems** | **Scalable AI Pipelines**
 
 Hi! I'm Deepankar — a Data Scientist and AI/ML Engineer with a strong focus on **Generative AI**, **LLMs**, **Multi-Agent Architectures**, and **modular AI deployments**. I bring over 3 years of hands-on experience solving real-world problems with intelligent, production-ready AI systems.
 
@@ -34,9 +34,9 @@ My expertise spans designing **end-to-end AI workflows**, deploying them using *
 ## 🧠 Projects & Work Highlights
 
 ### 🔹 Multi-Agent AI System for SDLC Intelligence  
-Designed and deployed a production-grade multi-agent LLM system using LangGraph and AutoGen to orchestrate intelligent agents for extracting insights from both structured and unstructured SDLC data.  
-Architected a dynamic planner–orchestrator–responder workflow that enabled the system to identify use cases in real time, trigger API-based tool calls, and generate a sequence of contextual payloads tailored to user personas. The system supported complex inference generation by integrating agent reasoning with SDLC-specific data pipelines.  
-Integrated as a scalable microservice into the enterprise platform for live query handling and dynamic insight delivery.  
+    - Designed and deployed a production-grade multi-agent LLM system using LangGraph and AutoGen to orchestrate intelligent agents for extracting insights from both structured and unstructured SDLC data.  
+    - Architected a dynamic planner–orchestrator–responder workflow that enabled the system to identify use cases in real time, trigger API-based tool calls, and generate a sequence of contextual payloads tailored to user personas. The system supported complex inference generation by integrating agent reasoning with SDLC-specific data pipelines.  
+    - Integrated as a scalable microservice into the enterprise platform for live query handling and dynamic insight delivery.  
 **Tech Stack:** LangGraph, AutoGen, LLMs, API Tool Calling, Prompt Engineering, Microservice Deployment, Docker, AKS
 
 ### 🔹 Hybrid RAG for Unified Data Retrieval  
@@ -77,8 +77,8 @@ Developed a content-based recommender system to prioritize regression test cases
 
 ## 📢 Internships
 
-- **Data Science Intern | LTI (2022)** – Built regression testing recommender using NLP/ML  
-- **Applied Deep Learning Intern | HPE (2022)** – Built CNN/RNN-based X-ray classifier using Azure ML, PyTorch, and Streamlit UI
+- **Data Science Intern** | LTI (2022) – Built regression testing recommender using NLP/ML  
+- **Applied Deep Learning Intern** | HPE (2022) – Built CNN/RNN-based X-ray classifier using Azure ML, PyTorch, and Streamlit UI
 
 ---
 
