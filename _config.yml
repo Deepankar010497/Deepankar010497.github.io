@@ -1,3 +1,4 @@
 # add the following to _config.yml file
 title: Deepankar Pradhan
+logo: /assets/img/my_photo.jpg
 theme: jekyll-theme-minimal
