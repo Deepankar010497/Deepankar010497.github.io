@@ -98,3 +98,47 @@
     transform: translateY(-2px);
   }
   
+
+  .contact-link {
+    display: inline-block;
+    max-width: 100%;
+    word-break: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    min-width: 260px;
+    text-align: center;
+  }
+  
+  @media (max-width: 576px) {
+    .contact-link {
+      font-size: 0.9rem;
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+    }
+  }
+
+  .email-me-btn {
+    background-color: #007bff;
+    font-size: 1rem;
+    line-height: 1.4;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.2s ease-in-out;
+    max-width: 100%;
+    word-wrap: break-word;
+    word-break: break-word;
+    min-width: 260px;
+  }
+  
+  .email-me-btn:hover {
+    background-color: #0056b3;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 576px) {
+    .email-me-btn {
+      font-size: 0.9rem;
+      padding-left: 1.25rem;
+      padding-right: 1.25rem;
+    }
+  }
+  
