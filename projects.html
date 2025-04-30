@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicon & Web App Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico">
+  <link rel="manifest" href="site.webmanifest">
+  <title>Projects | Deepankar Pradhan</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- AOS Animation Library -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body style="font-family: 'Poppins', sans-serif;">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold fs-4" href="index.html">Deepankar Pradhan</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+      <ul class="navbar-nav gap-2">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+        <!-- <li class="nav-item"><a class="nav-link disabled" href="#">Personal Projects</a></li> -->
+        <li class="nav-item"><a class="nav-link" href="personal-projects.html">Personal Projects</a></li>
+        <!-- <li class="nav-item"><a class="nav-link disabled" href="#">Blog</a></li> -->
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Projects Header -->
+<!-- <section class="py-5 text-center bg-primary text-white">
+  <div class="container">
+    <h1 class="fw-bold mb-3">Professional Project Portfolio</h1>
+    <p class="lead mb-0">Real-world systems I’ve delivered with AI, ML, LLMs, and scalable microservices</p>
+  </div>
+</section> -->
+
+<!-- Hero Banner for Projects -->
+<section class="hero-banner" style="background-image: url('assets/img/projects-banner.png'); min-height: 20vh; background-position: center; background-size: cover;">
+    <div class="overlay"></div>
+    <div class="container text-center text-white">
+      <h1 class="fw-bold">Professional Project Portfolio</h1>
+      <p class="lead">Real-world systems I’ve delivered with AI, ML, LLMs, and scalable microservices</p>
+    </div>
+  </section>
+  
+
+<!-- Project 1: Multi-Agent AI System -->
+<section class="container py-5" data-aos="fade-up">
+    <div class="row align-items-center g-4">
+      <div class="col-md-6">
+        <img src="assets/img/multiagent.jpg" alt="Multi-Agent AI System" class="img-fluid rounded shadow-sm" />
+      </div>
+      <div class="col-md-6">
+        <h3 class="fw-bold">Multi-Agent LLM System for SDLC Intelligence</h3>
+        <p class="mt-3">
+          Designed and deployed a planner–orchestrator–responder architecture using LangGraph and AutoGen to extract insights from structured and unstructured SDLC data. Agents called APIs as tools, executed based on personas, and generated payloads dynamically across workflows.
+        </p>
+        <p>
+          Integrated with UI for tracking agent decisions, connected to Knowledge source of structured and unstructured data for end-to-end visibility, and supported payload chaining with dynamic API orchestration using Function calling Agents. This system became a core module in the product suite and helped land enterprise demo deals. Appreciated and implemented by various internal teams within the organization.
+        </p>
+        <p><strong>Tech Stack:</strong> LangGraph, AutoGen, OpenAI, Python, Docker, Azure AKS, FastAPI, Elasticsearch, ChromaDB, ArangoDB, Gradio</p>
+      </div>
+    </div>
+  </section>
+
+<!-- Project 2: Hybrid RAG Pipeline -->
+<section class="container py-5 bg-light" data-aos="fade-left">
+    <div class="row align-items-center g-4 flex-md-row-reverse">
+      <div class="col-md-6">
+        <img src="assets/img/rag.jpg" alt="Hybrid RAG System" class="img-fluid rounded shadow-sm" />
+      </div>
+      <div class="col-md-6">
+        <h3 class="fw-bold">Hybrid RAG System with Graph + Vector Retrieval</h3>
+        <p class="mt-3">
+          Developed and deployed a hybrid Retrieval-Augmented Generation (RAG) system combining vector-based search with graph-based chunk traversal. Enabled high-recall contextual LLM responses across structured, semi-structured, and long-form documents.
+        </p>
+        <p>
+          This pipeline supports both enterprise document QA and agent integration workflows. Optimized for modular plugin design and response streaming. Seamlessly scaled using ChromaDB and Elasticsearch for retrieval layers.
+        </p>
+        <p><strong>Tech Stack:</strong> LangChain, ChromaDB, FAISS, Elasticsearch, LLMs, Python, ArangoDB, Semantic Caching</p>
+      </div>
+    </div>
+  </section>
+
+<!-- Project 3: Predictive Infra Monitoring -->
+<section class="container py-5" data-aos="fade-up">
+    <div class="row align-items-center g-4">
+      <div class="col-md-6">
+        <img src="assets/img/infra_monitoring.jpg" alt="Predictive Monitoring" class="img-fluid rounded shadow-sm" />
+      </div>
+      <div class="col-md-6">
+        <h3 class="fw-bold">Predictive Infra Monitoring & Anomaly Detection</h3>
+        <p class="mt-3">
+          Engineered forecasting workflows for infrastructure metrics using NeuralProphet and LightGBM to anticipate system load, memory spikes, and CPU trends across production systems.
+        </p>
+        <p>
+          Integrated anomaly detection with real-time RCA explanation generation using LLM-based prompt workflows and log analysis. Built dashboards and API-based alert triggers for proactive resource scaling and VM sizing in production.
+        </p>
+        <p><strong>Tech Stack:</strong> NeuralProphet, LightGBM, Python, LLM APIs, Log Analytics, Azure AKS, Docker</p>
+      </div>
+    </div>
+  </section>
+
+<!-- Project 4: Document & Image to Text Intelligence -->
+<section class="container py-5 bg-light" data-aos="fade-left">
+    <div class="row align-items-center g-4 flex-md-row-reverse">
+      <div class="col-md-6">
+        <img src="assets/img/doc_to_text.jpg" alt="Document to Text" class="img-fluid rounded shadow-sm" />
+      </div>
+      <div class="col-md-6">
+        <h3 class="fw-bold">Document & Image to Text Intelligence</h3>
+        <p class="mt-3">
+          Built an end-to-end pipeline combining OCR (Tesseract), image classifiers, captioners, and semantic chunking techniques to extract structured text from scanned documents and images.
+        </p>
+        <p>
+          Integrated RAG-based querying over the extracted data using LLMs and multimodal inference. Designed as a plug-and-play module to support downstream agent workflows and enhanced with a Gradio UI for interactive visual demos.
+        </p>
+        <p><strong>Tech Stack:</strong> Tesseract OCR, OpenCV, LLMs, Captioning, Gradio, Hybrid RAG, Python</p>
+      </div>
+    </div>
+  </section>
+
+<!-- Project 5: Regression Test Optimization -->
+<section class="container py-5" data-aos="fade-up">
+    <div class="row align-items-center g-4">
+      <div class="col-md-6">
+        <img src="assets/img/regression_testing.jpg" alt="Regression Testing Optimization" class="img-fluid rounded shadow-sm" />
+      </div>
+      <div class="col-md-6">
+        <h3 class="fw-bold">Regression Test Case Optimization System</h3>
+        <p class="mt-3">
+          Created a content-based recommender system to suggest relevant test cases from large test libraries using semantic text similarity — drastically reducing time for regression testing in microservice-based architecture.
+        </p>
+        <p>
+          Engineered using TF-IDF, Word2Vec embeddings, LDA/NMF topic modeling for dynamic clustering. Enabled QA teams to select critical test cases across modules and improved cycle coverage with lower redundancy.
+        </p>
+        <p><strong>Tech Stack:</strong> TF-IDF, Word2Vec, LDA, NMF, Python, NLP Feature Engineering, Flask</p>
+      </div>
+    </div>
+  </section>
+
+<!-- Call to Action -->
+<section class="py-5 text-center bg-primary text-white" data-aos="zoom-in-up">
+    <div class="container">
+      <h3 class="fw-bold mb-3">Want to know how these systems came to life?</h3>
+      <p class="lead mb-4">Check out my writeups (coming soon) or connect with me directly for deep dives, architecture flows, or collaboration ideas.</p>
+      <a href="contact.html" class="btn btn-light px-4">Contact Me</a>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <small>&copy; 2025 Deepankar Pradhan. All rights reserved.</small>
+    </div>
+  </footer>
+  
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <!-- AOS Script -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+  AOS.init({
+      once: true, // Animate only once when in view
+      duration: 800, // Animation duration (ms)
+      offset: 100, // Offset from the top (px)
+  });
+  </script>
+  </body>
+  </html>
+

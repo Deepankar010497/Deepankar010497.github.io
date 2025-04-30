@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicon & Web App Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico">
+  <link rel="manifest" href="site.webmanifest">
+  <title>About Me | Deepankar Pradhan</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- AOS Animation Library -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body style="font-family: 'Poppins', sans-serif;">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-4" href="index.html">Deepankar Pradhan</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+        <ul class="navbar-nav gap-2">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <!-- <li class="nav-item"><a class="nav-link disabled" href="#">Personal Projects</a></li> -->
+          <li class="nav-item"><a class="nav-link" href="personal-projects.html">Personal Projects</a></li>
+          <!-- <li class="nav-item"><a class="nav-link disabled" href="#">Blog</a></li> -->
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- About Summary -->
+<section class="container py-5">
+    <div class="row align-items-center">
+      <div class="col-lg-4 text-center mb-4 mb-lg-0">
+        <img src="assets/img/my_headshot_photo.png" alt="Profile" class="hero-profile rounded-circle shadow" />
+      </div>
+      <div class="col-lg-8" data-aos="fade-right">
+        <h2 class="mb-3">Summary</h2>
+        <p>
+          I’m <strong>Deepankar Pradhan</strong> — a Data Scientist and AI/ML Engineer passionate about building scalable, real-world AI solutions. With 3+ years of hands-on experience, I’ve worked across GenAI, multi-agent systems, hybrid RAG pipelines, document intelligence, predictive analytics, and production microservices. I specialize in converting raw business needs into modular, optimized AI workflows using the best of LLMs, prompt engineering, and orchestration.
+        </p>
+        <p>
+          I’ve led the architecture and deployment of multi-agent frameworks using LangGraph and AutoGen, predictive systems for infra metrics using NeuralProphet and LightGBM, and built seamless pipelines for document/image-to-text using OCR, OpenCV, and semantic chunking. I believe in clean, fast delivery of impactful AI backed by thoughtful design and systems thinking.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Skills & Tools -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Skills & Tools</h2>
+      <div class="row">
+        <div class="col-md-4" data-aos="zoom-in">
+          <ul class="list-unstyled">
+            <li><strong>Languages:</strong> Python, SQL</li>
+            <li><strong>ML/DL:</strong> Scikit-learn, TensorFlow, PyTorch, LightGBM</li>
+            <li><strong>Libraries:</strong> NumPy, Pandas, Matplotlib</li>
+          </ul>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in">
+          <ul class="list-unstyled">
+            <li><strong>GenAI:</strong> LangGraph, AutoGen, LangChain, OpenAI, HuggingFace</li>
+            <li><strong>NLP:</strong> Prompt Engineering, NLTK, SpaCy, LLM Agents</li>
+            <li><strong>Document AI:</strong> Tesseract, OpenCV, Semantic Chunking</li>
+          </ul>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in">
+          <ul class="list-unstyled">
+            <li><strong>DevOps:</strong> Docker, AKS, FastAPI, Flask</li>
+            <li><strong>Search:</strong> ChromaDB, FAISS, Elasticsearch</li>
+            <li><strong>UI:</strong> Gradio, Streamlit</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Education -->
+<section class="container py-5" data-aos="fade-up">
+    <h2 class="text-center mb-4">Education</h2>
+    <ul class="fs-6 list-unstyled">
+      <li><strong>M.E., Mechanical Engineering</strong> – BITS Pilani, Pilani Campus (2020–2022)</li>
+      <li><strong>B.Tech, Mechanical Engineering</strong> – C.V. Raman College of Engineering (2015–2019)</li>
+      <li><strong>Class XII (CBSE)</strong> – DAV Public School, Rourkela (83.5%)</li>
+      <li><strong>Class X (CBSE)</strong> – DAV Public School, Rourkela (CGPA: 10.0)</li>
+    </ul>
+  </section>
+  
+  <!-- Work Experience -->
+  <section class="bg-light py-5" data-aos="slide-up">
+    <div class="container">
+      <h2 class="text-center mb-4">Work Experience</h2>
+      <div class="mb-4">
+        <h5><strong>Data Scientist | LTIMindtree</strong> <small>(Jul 2022 – Present)</small></h5>
+        <ul class="fs-6">
+          <li>Designed and deployed multi-agent GenAI microservices using Docker, AKS, Elasticsearch.</li>
+          <li>Built LangGraph + AutoGen planner–orchestrator–responder framework for SDLC intelligence.</li>
+          <li>Implemented Hybrid RAG (graph + vector) for context-rich retrieval pipelines.</li>
+          <li>Engineered document/image intelligence workflows with OCR, captioning, semantic chunking.</li>
+          <li>Led forecasting + anomaly detection on infra metrics with NeuralProphet & LightGBM.</li>
+          <li>Integrated RCA insights via LLM and log summarization APIs.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Achievements -->
+  <section class="container py-5" data-aos="fade-up">
+    <h2 class="text-center mb-4">Achievements</h2>
+    <ul class="fs-6 list-unstyled">
+      <li>1st Place – ML Codeathon, IEEE Student Chapter, BITS Pilani</li>
+      <li>Received Certificates of Appreciation for Leadership and Innovation at LTIMindtree</li>
+      <li>Delivered Guest Session on Multi-Agent AI to 150+ engineering students (Pune)</li>
+    </ul>
+  </section>
+  
+  <!-- Talks & Engagements -->
+  <section class="bg-light py-5" data-aos="fade-left">
+    <div class="container">
+      <h2 class="text-center mb-4">Talks & Engagements</h2>
+      <ul class="fs-6 list-unstyled">
+        <li>Guest lecture on Multi-Agent AI (LangGraph, Autogen) — 150+ audience (LTIMindtree Pune)</li>
+        <li>Internal demo sessions on Hybrid RAG, caching, persona planning, tool integrations</li>
+        <li>Mentored team members on prompt chaining, debugging agents, and Copilot usage</li>
+      </ul>
+    </div>
+  </section>
+
+<!-- Call to Action -->
+<section class="py-5 text-center bg-primary text-white" data-aos="fade-up">
+    <div class="container">
+      <h3 class="fw-bold mb-3">Want to collaborate or discuss ideas?</h3>
+      <p class="lead mb-4">Feel free to connect — I’m always open to conversations around GenAI, LLMs, or building impactful systems.</p>
+      <a href="contact.html" class="btn btn-light px-4">Get in Touch</a>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <small>&copy; 2025 Deepankar Pradhan. All rights reserved.</small>
+    </div>
+  </footer>
+  
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <!-- AOS Script -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+  AOS.init({
+      once: true, // Animate only once when in view
+      duration: 800, // Animation duration (ms)
+      offset: 100, // Offset from the top (px)
+  });
+  </script>
+  </body>
+  </html>
+  

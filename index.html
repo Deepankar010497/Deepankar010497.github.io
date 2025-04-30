@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicon & Web App Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico">
+  <link rel="manifest" href="site.webmanifest">
+  <title>Deepankar Pradhan | AI/ML & GenAI Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- AOS Animation Library -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body style="font-family: 'Poppins', sans-serif;">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-4" href="index.html">Deepankar Pradhan</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+        <ul class="navbar-nav gap-2">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <!-- <li class="nav-item"><a class="nav-link disabled" href="#" title="Coming soon">Personal Projects</a></li> -->
+          <li class="nav-item"><a class="nav-link" href="personal-projects.html">Personal Projects</a></li>
+          <!-- <li class="nav-item"><a class="nav-link disabled" href="#" title="Coming soon">Blog</a></li> -->
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- Hero Section with Transparent Banner + Profile Photo -->
+<header class="hero-banner d-flex align-items-center justify-content-center text-white text-center">
+    <div class="overlay"></div>
+    <div class="container position-relative z-2" data-aos="fade-down">
+        <img src="assets/img/my_headshot_photo.png" alt="Profile"
+        class="hero-profile rounded-circle shadow mb-4" data-aos="zoom-in" />
+      <h1 class="fw-bold display-5">AI/ML Engineer & GenAI Specialist</h1>
+      <p class="lead fs-5">Multi-Agent Orchestration • RAG Pipelines • Infra Forecasting • Prompt Engineering</p>
+      <div class="mt-4 d-flex justify-content-center gap-3 flex-wrap">
+        <a href="projects.html" class="btn btn-light px-4">View My Work</a>
+        <a href="contact.html" class="btn btn-outline-light px-4">Get in Touch</a>
+      </div>
+    </div>
+  </header>
+  
+  
+<!-- Featured Projects -->
+<section class="container py-5" data-aos="fade-up">
+    <h2 class="text-center mb-4">Featured Projects</h2>
+    <p class="text-center mb-5 text-muted">Some highlights from my Professional work — visit the Projects page for full details.</p>
+  
+    <!-- Row 1: Project 1 and 2 -->
+    <div class="row justify-content-center g-4">
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/img/multiagent.jpg" class="card-img-top" alt="Multi-Agent AI System">
+          <div class="card-body">
+            <h5 class="card-title">Multi-Agent LLM System</h5>
+            <p class="card-text">Built planner–orchestrator–responder agent system using LangGraph + AutoGen for SDLC data insights via tool-calling LLM agents.</p>
+          </div>
+          <div class="card-footer bg-white border-0 text-end">
+            <a href="projects.html" class="btn btn-outline-primary btn-sm">View More</a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/img/rag.jpg" class="card-img-top" alt="Hybrid RAG System">
+          <div class="card-body">
+            <h5 class="card-title">Hybrid RAG Pipeline</h5>
+            <p class="card-text">Unified vector + graph retrieval pipeline for long-context querying over enterprise data using LLMs and document embeddings.</p>
+          </div>
+          <div class="card-footer bg-white border-0 text-end">
+            <a href="projects.html" class="btn btn-outline-primary btn-sm">View More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Row 2: Project 3, 4, 5 -->
+    <div class="row g-4 mt-2">
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/img/infra_monitoring.jpg" class="card-img-top" alt="Predictive Monitoring">
+          <div class="card-body">
+            <h5 class="card-title">Predictive Infra Monitoring</h5>
+            <p class="card-text">Forecasted infra metrics using NeuralProphet + LightGBM, added anomaly detection + RCA with LLMs and log analytics.</p>
+          </div>
+          <div class="card-footer bg-white border-0 text-end">
+            <a href="projects.html" class="btn btn-outline-primary btn-sm">View More</a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/img/doc_to_text.jpg" class="card-img-top" alt="Document Intelligence">
+          <div class="card-body">
+            <h5 class="card-title">Doc & Image to Text</h5>
+            <p class="card-text">OCR + captioning + semantic chunking to extract structured data from noisy images and scanned documents for LLM response pipelines.</p>
+          </div>
+          <div class="card-footer bg-white border-0 text-end">
+            <a href="projects.html" class="btn btn-outline-primary btn-sm">View More</a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/img/regression_testing.jpg" class="card-img-top" alt="Test Optimization">
+          <div class="card-body">
+            <h5 class="card-title">Regression Test Optimization</h5>
+            <p class="card-text">Content-based recommender for test case selection using TF-IDF, Word2Vec, LDA/NMF — accelerated regression QA cycles.</p>
+          </div>
+          <div class="card-footer bg-white border-0 text-end">
+            <a href="projects.html" class="btn btn-outline-primary btn-sm">View More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- Call to Action -->
+<section class="py-5 bg-light" data-aos="fade-up">
+    <div class="container text-center">
+      <h3 class="fw-bold mb-3">Want to see how I can help your team or product?</h3>
+      <p class="lead mb-4">Explore my complete work and feel free to reach out — I’m always excited to collaborate on high-impact AI systems.</p>
+      <a href="contact.html" class="btn btn-primary px-4">Contact Me</a>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3 mt-4">
+    <div class="container">
+      <small>&copy; 2025 Deepankar Pradhan. All rights reserved.</small>
+    </div>
+  </footer>
+  
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <!-- AOS Script -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+    AOS.init({
+        once: true, // Animate only once when in view
+        duration: 800, // Animation duration (ms)
+        offset: 100, // Offset from the top (px)
+    });
+    </script>
+
+  </body>
+  </html>
+  

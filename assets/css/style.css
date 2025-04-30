@@ -1,0 +1,100 @@
+
+/* ------------------- Hero Section ------------------- */
+.hero-banner {
+    min-height: 90vh;
+    background: url('../img/profile-banner.png') center center/cover no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .hero-banner .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+    z-index: 1;
+  }
+  
+  .hero-banner .container {
+    z-index: 2;
+    position: relative;
+    max-width: 700px;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-banner .container {
+      padding: 0 1.5rem;
+    }
+    .hero-banner h1 {
+      font-size: 2rem;
+    }
+    .hero-banner p {
+      font-size: 1rem;
+    }
+  }
+
+  .hero-banner .overlay {
+    background-color: rgba(0, 0, 0, 0.6); /* darkens the banner for readability */
+  }
+  
+  
+  /* ------------------- Profile Picture ------------------- */
+  .hero-profile {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .hero-profile:hover {
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 768px) {
+    .hero-profile {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  
+  /* ------------------- General Enhancements ------------------- */
+  a.btn:hover,
+  a.text-decoration-none:hover {
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+  }
+  
+  footer {
+    font-size: 0.9rem;
+  }
+  
+  section {
+    scroll-margin-top: 100px;
+  }
+  
+  .navbar-nav .nav-link {
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #0d6efd;
+    transform: translateY(-2px);
+  }
+  
