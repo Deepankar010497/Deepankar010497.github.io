@@ -64,99 +64,198 @@
   
 
 <!-- Project 1: Multi-Agent AI System -->
-<section class="container py-5" data-aos="fade-up">
-    <div class="row align-items-center g-4">
-      <div class="col-md-6">
-        <img src="assets/img/multiagent.jpg" alt="Multi-Agent AI System" class="img-fluid rounded shadow-sm" />
-      </div>
-      <div class="col-md-6">
-        <h3 class="fw-bold">Multi-Agent LLM System for SDLC Intelligence</h3>
-        <p class="mt-3">
-          Designed and deployed a planner–orchestrator–responder architecture using LangGraph and AutoGen to extract insights from structured and unstructured SDLC data. Agents called APIs as tools, executed based on personas, and generated payloads dynamically across workflows.
-        </p>
-        <p>
-          Integrated with UI for tracking agent decisions, connected to Knowledge source of structured and unstructured data for end-to-end visibility, and supported payload chaining with dynamic API orchestration using Function calling Agents. This system became a core module in the product suite and helped land enterprise demo deals. Appreciated and implemented by various internal teams within the organization.
-        </p>
-        <p><strong>Tech Stack:</strong> LangGraph, AutoGen, OpenAI, Python, Docker, Azure AKS, FastAPI, Elasticsearch, ChromaDB, ArangoDB, Gradio</p>
+<section class="container py-5 project-block" data-aos="fade-up">
+  <div class="row align-items-center g-4">
+    
+    <!-- Image Block -->
+    <div class="col-md-6">
+      <div class="project-img-wrapper">
+        <img src="assets/img/multiagent.jpg" alt="Multi-Agent AI System" class="img-fluid rounded shadow project-img-hover" />
       </div>
     </div>
-  </section>
+
+    <!-- Text Block -->
+    <div class="col-md-6">
+      <h3 class="fw-bold text-primary">Multi-Agent LLM System for SDLC Intelligence</h3>
+      <ul class="project-list mt-3">
+        <li>Built planner–orchestrator–responder architecture using <strong>LangGraph</strong> and <strong>AutoGen</strong> for insight extraction from structured & unstructured SDLC data.</li>
+        <li>Agents executed API calls based on <strong>personas</strong>, dynamically generating intelligent payloads across workflows.</li>
+        <li>Integrated UI tracking, persona chaining, and Function-calling agents for scalable automation.</li>
+        <li>Enabled end-to-end visibility via LLM-driven insights and hybrid Knowledge source linking.</li>
+        <li><strong>Impact:</strong> Core product module adopted internally and used for enterprise demos.</li>
+      </ul>
+      <div class="mt-3">
+        <strong>Tech Stack:</strong>
+        <div class="tech-tags mt-2">
+          <span>LangGraph</span>
+          <span>AutoGen</span>
+          <span>OpenAI</span>
+          <span>Python</span>
+          <span>Docker</span>
+          <span>AKS</span>
+          <span>FastAPI</span>
+          <span>Elasticsearch</span>
+          <span>ChromaDB</span>
+          <span>ArangoDB</span>
+          <span>Gradio</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <!-- Project 2: Hybrid RAG Pipeline -->
-<section class="container py-5 bg-light" data-aos="fade-left">
-    <div class="row align-items-center g-4 flex-md-row-reverse">
-      <div class="col-md-6">
-        <img src="assets/img/rag.jpg" alt="Hybrid RAG System" class="img-fluid rounded shadow-sm" />
-      </div>
-      <div class="col-md-6">
-        <h3 class="fw-bold">Hybrid RAG System with Graph + Vector Retrieval</h3>
-        <p class="mt-3">
-          Developed and deployed a hybrid Retrieval-Augmented Generation (RAG) system combining vector-based search with graph-based chunk traversal. Enabled high-recall contextual LLM responses across structured, semi-structured, and long-form documents.
-        </p>
-        <p>
-          This pipeline supports both enterprise document QA and agent integration workflows. Optimized for modular plugin design and response streaming. Seamlessly scaled using ChromaDB and Elasticsearch for retrieval layers.
-        </p>
-        <p><strong>Tech Stack:</strong> LangChain, ChromaDB, FAISS, Elasticsearch, LLMs, Python, ArangoDB, Semantic Caching</p>
+<section class="container py-5 bg-light project-block" data-aos="fade-left">
+  <div class="row align-items-center g-4 flex-md-row-reverse">
+    
+    <!-- Image Block -->
+    <div class="col-md-6">
+      <div class="project-img-wrapper">
+        <img src="assets/img/rag.jpg" alt="Hybrid RAG System" class="img-fluid rounded shadow project-img-hover" />
       </div>
     </div>
-  </section>
+
+    <!-- Text Block -->
+    <div class="col-md-6">
+      <h3 class="fw-bold text-primary">Hybrid RAG System with Graph + Vector Retrieval</h3>
+      <ul class="project-list mt-3">
+        <li>Engineered hybrid <strong>RAG pipelines</strong> combining vector search with graph-based chunk traversal for deep context.</li>
+        <li>Enabled <strong>context-rich LLM outputs</strong> from structured, semi-structured, and long-form enterprise documents.</li>
+        <li>Optimized for <strong>plugin-based modularity</strong> and integrated into agent-based QA systems.</li>
+        <li>Scaled efficiently with <strong>ChromaDB</strong> & <strong>Elasticsearch</strong> powering parallel retrieval logic.</li>
+      </ul>
+      <div class="mt-3">
+        <strong>Tech Stack:</strong>
+        <div class="tech-tags mt-2">
+          <span>LangChain</span>
+          <span>ChromaDB</span>
+          <span>FAISS</span>
+          <span>OpenAI</span>
+          <span>Elasticsearch</span>
+          <span>LLMs</span>
+          <span>Python</span>
+          <span>ArangoDB</span>
+          <span>Semantic Caching</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <!-- Project 3: Predictive Infra Monitoring -->
-<section class="container py-5" data-aos="fade-up">
-    <div class="row align-items-center g-4">
-      <div class="col-md-6">
-        <img src="assets/img/infra_monitoring.jpg" alt="Predictive Monitoring" class="img-fluid rounded shadow-sm" />
-      </div>
-      <div class="col-md-6">
-        <h3 class="fw-bold">Predictive Infra Monitoring & Anomaly Detection</h3>
-        <p class="mt-3">
-          Engineered forecasting workflows for infrastructure metrics using NeuralProphet and LightGBM to anticipate system load, memory spikes, and CPU trends across production systems.
-        </p>
-        <p>
-          Integrated anomaly detection with real-time RCA explanation generation using LLM-based prompt workflows and log analysis. Built dashboards and API-based alert triggers for proactive resource scaling and VM sizing in production.
-        </p>
-        <p><strong>Tech Stack:</strong> NeuralProphet, LightGBM, Python, LLM APIs, Log Analytics, Azure AKS, Docker</p>
+<section class="container py-5 project-block" data-aos="fade-up">
+  <div class="row align-items-center g-4">
+    
+    <!-- Image Block -->
+    <div class="col-md-6">
+      <div class="project-img-wrapper">
+        <img src="assets/img/infra_monitoring.jpg" alt="Predictive Monitoring" class="img-fluid rounded shadow project-img-hover" />
       </div>
     </div>
-  </section>
+
+    <!-- Text Block -->
+    <div class="col-md-6">
+      <h3 class="fw-bold text-primary">Predictive Infra Monitoring & Anomaly Detection</h3>
+      <ul class="project-list mt-3">
+        <li>Engineered infra forecasting using <strong>NeuralProphet</strong> & <strong>LightGBM</strong> to detect spikes in memory, CPU, and disk loads.</li>
+        <li>Integrated <strong>real-time RCA</strong> insights using LLM prompt pipelines and system log analytics.</li>
+        <li>Created dashboards & alert APIs for <strong>proactive scaling</strong> and VM right-sizing in production environments.</li>
+        <li>Reduced response time & improved uptime during critical system stress scenarios.</li>
+      </ul>
+      <div class="mt-3">
+        <strong>Tech Stack:</strong>
+        <div class="tech-tags mt-2">
+          <span>NeuralProphet</span>
+          <span>LightGBM</span>
+          <span>Python</span>
+          <span>LLM APIs</span>
+          <span>Log Analytics</span>
+          <span>Azure AKS</span>
+          <span>Docker</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <!-- Project 4: Document & Image to Text Intelligence -->
-<section class="container py-5 bg-light" data-aos="fade-left">
-    <div class="row align-items-center g-4 flex-md-row-reverse">
-      <div class="col-md-6">
-        <img src="assets/img/doc_to_text.jpg" alt="Document to Text" class="img-fluid rounded shadow-sm" />
-      </div>
-      <div class="col-md-6">
-        <h3 class="fw-bold">Document & Image to Text Intelligence</h3>
-        <p class="mt-3">
-          Built an end-to-end pipeline combining OCR (Tesseract), image classifiers, captioners, and semantic chunking techniques to extract structured text from scanned documents and images.
-        </p>
-        <p>
-          Integrated RAG-based querying over the extracted data using LLMs and multimodal inference. Designed as a plug-and-play module to support downstream agent workflows and enhanced with a Gradio UI for interactive visual demos.
-        </p>
-        <p><strong>Tech Stack:</strong> Tesseract OCR, OpenCV, LLMs, Captioning, Gradio, Hybrid RAG, Python</p>
+<section class="container py-5 bg-light project-block" data-aos="fade-left">
+  <div class="row align-items-center g-4 flex-md-row-reverse">
+    
+    <!-- Image -->
+    <div class="col-md-6">
+      <div class="project-img-wrapper">
+        <img src="assets/img/doc_to_text.jpg" alt="Document to Text" class="img-fluid rounded shadow project-img-hover" />
       </div>
     </div>
-  </section>
+
+    <!-- Text -->
+    <div class="col-md-6">
+      <h3 class="fw-bold text-primary">Document & Image to Text Intelligence</h3>
+      <ul class="project-list mt-3">
+        <li>Built an OCR pipeline using <strong>Tesseract</strong>, <strong>OpenCV</strong>, image classifiers, and captioners for noisy scanned inputs.</li>
+        <li>Applied <strong>semantic chunking</strong> to extract structured content from documents and images.</li>
+        <li>Enabled LLM-based querying over outputs using a <strong>Hybrid RAG</strong> setup.</li>
+        <li>Integrated into downstream multi-agent workflows and packaged with an interactive <strong>Gradio UI</strong> demo module.</li>
+      </ul>
+      <div class="mt-3">
+        <strong>Tech Stack:</strong>
+        <div class="tech-tags mt-2">
+          <span>Tesseract OCR</span>
+          <span>OpenCV</span>
+          <span>Captioning</span>
+          <span>LLMs</span>
+          <span>Multimodal LLMs</span>
+          <span>Hybrid RAG</span>
+          <span>Gradio</span>
+          <span>Python</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <!-- Project 5: Regression Test Optimization -->
-<section class="container py-5" data-aos="fade-up">
-    <div class="row align-items-center g-4">
-      <div class="col-md-6">
-        <img src="assets/img/regression_testing.jpg" alt="Regression Testing Optimization" class="img-fluid rounded shadow-sm" />
-      </div>
-      <div class="col-md-6">
-        <h3 class="fw-bold">Regression Test Case Optimization System</h3>
-        <p class="mt-3">
-          Created a content-based recommender system to suggest relevant test cases from large test libraries using semantic text similarity — drastically reducing time for regression testing in microservice-based architecture.
-        </p>
-        <p>
-          Engineered using TF-IDF, Word2Vec embeddings, LDA/NMF topic modeling for dynamic clustering. Enabled QA teams to select critical test cases across modules and improved cycle coverage with lower redundancy.
-        </p>
-        <p><strong>Tech Stack:</strong> TF-IDF, Word2Vec, LDA, NMF, Python, NLP Feature Engineering, Flask</p>
+<section class="container py-5 project-block" data-aos="fade-up">
+  <div class="row align-items-center g-4">
+    
+    <!-- Image -->
+    <div class="col-md-6">
+      <div class="project-img-wrapper">
+        <img src="assets/img/regression_testing.jpg" alt="Regression Testing Optimization" class="img-fluid rounded shadow project-img-hover" />
       </div>
     </div>
-  </section>
+
+    <!-- Description -->
+    <div class="col-md-6">
+      <h3 class="fw-bold text-primary">Regression Test Case Optimization System</h3>
+      <ul class="project-list mt-3">
+        <li>Built a content-based recommender system to suggest relevant test cases using <strong>semantic similarity</strong>.</li>
+        <li>Accelerated regression testing cycles in microservice-based systems by minimizing test case redundancy.</li>
+        <li>Engineered using <strong>TF-IDF</strong>, <strong>Word2Vec</strong> embeddings, and <strong>LDA/NMF</strong> for dynamic clustering and pattern detection.</li>
+        <li>Enabled QA teams to auto-select critical test cases across modules with better coverage.</li>
+      </ul>
+      <div class="mt-3">
+        <strong>Tech Stack:</strong>
+        <div class="tech-tags mt-2">
+          <span>TF-IDF</span>
+          <span>Word2Vec</span>
+          <span>LDA</span>
+          <span>NMF</span>
+          <span>Python</span>
+          <span>NLP Feature Engineering</span>
+          <span>Flask</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
 <!-- Call to Action -->
 <section class="py-5 text-center bg-primary text-white" data-aos="zoom-in-up">
